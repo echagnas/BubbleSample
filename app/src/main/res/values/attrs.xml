@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleView">
+        <attr name="bubble_arrow_height" format="dimension"/>
+        <attr name="bubble_arrow_position" format="enum">
+            <enum name="Left" value="0"/>
+            <enum name="Top" value="1"/>
+            <enum name="Right" value="2"/>
+            <enum name="Bottom" value="3"/>
+        </attr>
+        <attr name="bubble_roundrect_size" format="dimension"/>
+        <attr name="bubble_color" format="color"/>
+        <attr name="bubble_text" format="string"/>
+        <attr name="bubble_text_color" format="color"/>
+        <attr name="bubble_text_size" format="dimension"/>
+        <attr name="bubble_size" format="dimension"/>
+    </declare-styleable>
+
+</resources>
